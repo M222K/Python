@@ -7,8 +7,8 @@ logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     datefmt='%Y-%m-%d %H:%M:%S',
     handlers=[
-        logging.FileHandler("app1.log"),
-        logging.StreamHandler()
+        logging.FileHandler("app1.log"), #file to save logs
+        logging.StreamHandler() #used to stream all the info to be logged in the file 
     ]
 )
 
